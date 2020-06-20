@@ -1,0 +1,36 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+            
+	<LinearLayout android:id="@+id/rootLayout"
+    	android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    	
+	    <ImageView android:id="@+id/facebook_header"
+	        android:layout_width="match_parent"
+    		android:layout_height="240dip"
+    		android:contentDescription="@string/facebook_logo_content_description"
+    		android:padding="16dip" >
+    	</ImageView>
+    	
+	    <Button android:id="@+id/facebook_launch"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/facebook_selector"
+    		android:textColor="@color/white"
+    		android:text="@string/facebook_launch_button_text" >
+	    </Button>
+	    
+	    <Button android:id="@+id/web_browser_launch"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/facebook_selector"
+    		android:textColor="@color/white"
+    		android:text="@string/facebook_web_launch_button_text" >
+	    </Button>
+    	
+	</LinearLayout>
+	
+</ScrollView>

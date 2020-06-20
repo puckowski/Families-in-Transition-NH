@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<style name="Theme.FamiliesInTransition" parent="@android:style/Theme.Holo.Light" >
+    	<item name="android:actionBarItemBackground">@drawable/action_bar_selector</item>
+    	<!--<item name="android:actionBarStyle">@style/ActionBar</item>-->
+	</style>
+
+	<style name="ActionBar" parent="android:style/Widget.Holo.ActionBar">     
+    	<item name="android:background">@drawable/fit_green_selector</item>
+    	<item name="android:titleTextStyle">@style/ActionBar.TitleTextStyle</item>
+	</style>
+	
+	<style name="ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    	<item name="android:textColor">@color/action_bar_title_gray</item>
+  	</style>
+	
+</resources>

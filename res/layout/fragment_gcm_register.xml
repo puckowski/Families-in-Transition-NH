@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" >
+    
+	<LinearLayout android:id="@+id/register_layout"
+		android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >    
+    	
+	    <TextView android:id="@+id/gcm_not_registered_header"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/gcm_not_registered_label"
+	    	android:textStyle="bold"
+	    	android:textColor="@color/action_bar_title_gray"
+	    	android:textAppearance="?android:attr/textAppearanceLarge"
+	    	android:paddingLeft="16dip"
+	    	android:paddingRight="16dip"
+	    	android:paddingTop="16dip"
+	    	android:paddingBottom="16dip"
+	    	android:layout_gravity="center" >
+    	</TextView>
+    		
+	    <Button android:id="@+id/push_notification_info_button"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:textStyle="bold"
+	    	android:text="@string/push_messaging_expand_info"
+	    	android:textColor="@color/white"
+	    	android:background="@drawable/fit_green_selector"
+	    	android:textAppearance="?android:attr/textAppearanceLarge"
+	    	android:layout_gravity="center" >
+    	</Button>
+    	
+	    <TextView android:id="@+id/push_messaging_description_view"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:textAppearance="?android:attr/textAppearance"
+	    	android:paddingLeft="16dip"
+	    	android:paddingRight="16dip"
+	    	android:paddingTop="16dip"
+	    	android:paddingBottom="16dip"
+	    	android:layout_gravity="center"
+	    	android:textColor="@color/action_bar_title_gray" >
+    	</TextView>
+    	
+		<TextView android:id="@+id/name_text_view" 
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/gcm_register_name_label"
+		    android:textStyle="bold"
+	   		android:textColor="@color/action_bar_title_gray"
+	    	android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:layout_margin="16dip" >
+		</TextView>
+		     
+		<EditText android:id="@+id/name_edit_text" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="text"
+		    android:layout_marginLeft="16dip"
+		    android:layout_marginRight="16dip"
+		    android:textColor="@color/action_bar_title_gray" >
+		</EditText>
+		     
+		<TextView android:id="@+id/email_text_view" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/gcm_register_email_label"
+		    android:textStyle="bold"
+	    	android:textColor="@color/action_bar_title_gray"
+	    	android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:layout_margin="16dip" >
+		</TextView>
+		     
+		<EditText android:id="@+id/email_edit_text" 
+			android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+			android:inputType="textEmailAddress"
+		    android:layout_marginLeft="16dip"
+		    android:layout_marginRight="16dip" 
+		    android:textColor="@color/action_bar_title_gray" >
+		</EditText>
+		    
+		<Button android:id="@+id/push_notifications_register_button"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:textStyle="bold"
+	    	android:text="@string/register_for_push_notifications"
+	    	android:textColor="@color/white"
+	    	android:background="@drawable/fit_green_selector"
+	    	android:textAppearance="?android:attr/textAppearanceLarge"
+	    	android:layout_gravity="center" 
+	    	android:layout_marginTop="16dip" >
+    	</Button>
+	
+		<Button android:id="@+id/push_notifications_unregister_button"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:textStyle="bold"
+	    	android:text="@string/unregister_for_push_notifications"
+	    	android:textColor="@color/white"
+	    	android:background="@drawable/fit_green_selector"
+	    	android:textAppearance="?android:attr/textAppearanceLarge"
+	    	android:layout_gravity="center" >
+    	</Button>
+    	
+		<Button android:id="@+id/show_gcm_id_button"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:textStyle="bold"
+	    	android:text="@string/debug_show_gcm_id_button_label"
+	    	android:textColor="@color/white"
+	    	android:background="@drawable/fit_green_selector"
+	    	android:textAppearance="?android:attr/textAppearanceLarge"
+	    	android:layout_gravity="center" >
+    	</Button>
+    	
+	</LinearLayout>
+		
+</ScrollView>

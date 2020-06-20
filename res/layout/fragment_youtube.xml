@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+            
+	<LinearLayout android:id="@+id/rootLayout"
+    	android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    	
+	    <ImageView android:id="@+id/youtube_header"
+	        android:layout_width="match_parent"
+    		android:layout_height="240dip"
+    		android:contentDescription="@string/youtube_logo_content_description"
+    		android:padding="16dip" >
+    	</ImageView>
+    	
+	    <Button android:id="@+id/youtube_launch"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/youtube_selector"
+    		android:textColor="@color/white"
+    		android:text="@string/youtube_launch_button_text" >
+	    </Button>
+	    
+	    <Button android:id="@+id/web_browser_launch"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/youtube_selector"
+    		android:textColor="@color/white"
+    		android:text="@string/youtube_web_launch_button_text" >
+	    </Button>
+    	
+	    <TextView android:id="@+id/about_fit_video_view" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/about_fit_video_label"
+		    android:textStyle="bold"
+	    	android:textColor="@color/action_bar_title_gray"
+	    	android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:layout_margin="16dip" >
+		</TextView>
+		
+	    <ImageButton android:id="@+id/play_fit_video_button"
+        	android:layout_width="384dip"
+    		android:layout_height="240dip"
+    		android:layout_gravity="center"
+    		android:layout_marginBottom="16dip"
+    		android:contentDescription="@string/youtube_about_video_content_description"
+            android:background="@drawable/video_thumbnail_selector"
+            android:clickable="true" >
+        </ImageButton>
+	    
+	</LinearLayout>
+	
+</ScrollView>

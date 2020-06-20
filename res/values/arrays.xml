@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+        
+    <string-array name="drawer_item_group_titles" >  
+        <item>Getting Involved</item>
+		<item>FIT Online</item>
+		<item>Our Businesses</item>
+		<!--<item>About Us</item>-->
+		<item>Settings</item>
+    </string-array>
+    
+    <string-array name="drawer_involved_child_titles" >  
+        <item>Giving</item>
+		<item>Events</item>
+		<item>Volunteer</item>
+		<item>Push Messages</item>
+		<item>Registration</item>
+    </string-array>
+    
+    <string-array name="drawer_involved_mobile_child_titles" >  
+        <item>Donate</item>
+		<item>Volunteer</item>
+		<item>Ways to Give</item>
+		<item>Events</item>
+		<item>About Us</item>
+		<item>Notifications</item>
+		<item>Push Messages Signup</item>
+    </string-array>
+    
+    <string-array name="drawer_online_child_titles" >  
+        <item>Home</item>
+        <item>About</item>
+        <item>Donate</item>
+        <item>Volunteer</item>
+        <item>Get Help</item>
+        <item>Our Businesses</item>
+        <item>VISTA Program</item>
+        <item>News &amp; Events</item>
+        <item>Our Mission</item>
+    </string-array>
+    
+    <string-array name="drawer_business_child_titles" >
+		<item>OutFITters</item>
+        <item>FIT Cleaning Solutions</item>
+    </string-array>
+    
+    <string-array name="business_page_urls" >
+        <item>http://www.outfittersnh.org/</item>
+        <item>http://www.fitcleaning.org/</item>
+    </string-array>
+    
+    <string-array name="online_page_urls">
+        <item>http://www.fitnh.org/app</item>
+        <item>http://www.fitnh.org/housing-services/about/</item>
+        <item>http://www.fitnh.org/donate/donate-online/</item>
+        <item>http://www.fitnh.org/volunteer/be-a-volunteer/</item>
+        <item>http://www.fitnh.org/get-help/</item>
+        <item>http://www.fitnh.org/our-businesses/</item>
+        <item>http://www.fitnh.org/vista-program/about/</item>
+        <item>http://www.fitnh.org/news-events/</item>
+        <item>http://www.fitnh.org/about-us/mission/</item>
+    </string-array>
+    
+    <string-array name="static_page_urls">
+        <item>file:///android_asset/static-website/home.html</item>
+        <item>file:///android_asset/static-website/housing.html</item>
+        <item>file:///android_asset/static-website/donate.html</item>
+        <item>file:///android_asset/static-website/volunteer.html</item>
+        <item>file:///android_asset/static-website/help.html</item>
+        <item>file:///android_asset/static-website/businesses.html</item>
+        <item>file:///android_asset/static-website/vista.html</item>
+        <item>file:///android_asset/static-website/news.html</item>
+        <item>file:///android_asset/static-website/mission.html</item>
+    </string-array>
+    
+    <string-array name="drawer_about_child_titles" >  
+        <item>Locations</item>
+		<item>Facebook</item>
+		<item>YouTube</item>
+		<item>Twitter</item>
+    </string-array>
+    
+    <string-array name="involved_page_urls">
+        <item>http://www.fitnh.org/donate/ways-to-give/</item>
+        <item>http://www.fitnh.org/news-events/events/</item>
+        <item>http://www.fitnh.org/volunteer/volunteer-opportunities/</item>
+    </string-array>
+    
+    <string-array name="involved_mobile_page_urls">
+        <item>https://getinvolved.fitnh.org/fitapp/donate</item>
+        <item>http://fitnh.org/app/give/</item>
+        <item>http://fitnh.org/app/volunteer/</item>
+        <item>http://fitnh.org/app/events/</item>
+        <item>http://fitnh.org/app/about/</item>
+    </string-array>
+    
+    <string-array name="involved_static_page_urls">
+        <item>file:///android_asset/static-website/giving.html</item>
+        <item>file:///android_asset/static-website/events.html</item>
+        <item>file:///android_asset/static-website/opportunities.html</item>
+    </string-array>
+    
+</resources>

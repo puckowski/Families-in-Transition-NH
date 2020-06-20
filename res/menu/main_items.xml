@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/menu_item_settings"
+        android:title="@string/action_bar_settings"
+        android:selectableItemBackground="@drawable/fit_green_selector"
+        android:actionBarItemBackground="@drawable/fit_green_selector"
+        android:showAsAction="ifRoom|withText" >
+    </item>
+
+    <item android:id="@+id/menu_item_open_drawer"
+        android:title="@string/action_bar_open_menu"
+        android:selectableItemBackground="@drawable/fit_green_selector"
+        android:actionBarItemBackground="@drawable/fit_green_selector"
+        android:showAsAction="ifRoom|withText" >
+    </item>
+    
+</menu>

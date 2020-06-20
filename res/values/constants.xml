@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <integer name="start_standalone_player">1</integer>
+    <integer name="resolve_service_missing">2</integer>
+    
+</resources>

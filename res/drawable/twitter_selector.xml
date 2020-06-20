@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:state_pressed="true" > 	
+    	<shape>
+      		<gradient android:startColor="@color/twitter_cyan_value_80"
+          		android:endColor="@color/twitter_cyan_value_60"
+          		android:angle="270" >
+          	</gradient>
+    	</shape>  
+    </item>
+   
+    <item android:state_focused="true" >   
+    	<shape>
+      		<gradient android:startColor="@color/twitter_cyan_value_80"
+          		android:endColor="@color/twitter_cyan_value_60"
+          		android:angle="270" >
+          	</gradient>
+    	</shape>      
+    </item>
+    
+    <item>      
+    	<shape>
+      		<gradient android:startColor="@color/twitter_cyan_value_100"
+          		android:endColor="@color/twitter_cyan_value_80"
+          		android:angle="270" >
+          	</gradient>   		
+    	</shape>      
+    </item>
+    
+</selector>

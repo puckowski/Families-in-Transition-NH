@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" >
+    
+    <CheckBoxPreference android:key="registration_form_complete"
+	    android:title="Registration form complete"
+	    android:summary="Denotes whether or not this registration form has been completed"
+	    android:defaultValue="false" 
+	    android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" >
+	</CheckBoxPreference>
+	
+    <EditTextPreference android:key="gcm_registration_id"
+	    android:title="GCM registration ID"
+	    android:summary="Device's registration ID for GCM services"
+	    android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" >
+	</EditTextPreference>
+	
+	<EditTextPreference android:key="gcm_user_name"
+	    android:title="GCM user name"
+	    android:summary="Name to identify with GCM and FIT server"
+	    android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" >
+	</EditTextPreference>
+	    
+	<EditTextPreference android:key="gcm_user_email"
+		android:title="GCM user email address"
+	    android:summary="Email address to identify with GCM and FIT server"
+	    android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" >
+	</EditTextPreference>
+    
+</PreferenceScreen>

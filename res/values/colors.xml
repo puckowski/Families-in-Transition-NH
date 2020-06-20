@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+	<color name="white">#ffffff</color>
+
+	<color name="drawer_list_divider">#505050</color>
+	<color name="drawer_list_background">#F2333333</color>
+	<color name="drawer_group_gradient_start">#00333333</color>
+	<color name="drawer_group_gradient_end">#00333333</color>
+	<color name="drawer_child_gradient_start">#80505050</color>
+	<color name="drawer_child_gradient_end">#80505050</color>
+	
+	<color name="push_message_divider">#dddddd</color>
+	<color name="push_message_gradient_end">#dddddd</color>
+	
+	<color name="alert_dialog_gradient_start">#f5f5f5</color>
+	<!--<color name="alert_dialog_gradient_end">#f5f5f5</color>-->
+	
+	<color name="image_view_gradient_start">#dddddd</color>
+	<color name="image_view_gradient_end">#cccccc</color>
+	
+	<color name="fit_green_value_50">#6C7F57</color>
+	<color name="fit_green_value_70">#99B57C</color>
+	<color name="fit_green_value_90">#C5E99F</color>
+	
+	<color name="action_bar_title_gray">#606060</color>
+	<color name="action_bar_gradient_start">#dddddd</color>
+	<color name="action_bar_gradient_end">#dddddd</color>
+	
+	<color name="facebook_blue_value_18">#121B2D</color>
+	<color name="facebook_blue_value_38">#273B63</color>
+	<color name="facebook_blue_value_58">#3B5893</color>
+	
+	<color name="twitter_cyan_value_60">#1E7A99</color>
+	<color name="twitter_cyan_value_80">#28A3CC</color>
+	<color name="twitter_cyan_value_100">#33CCFF</color>
+	
+	<color name="youtube_red_value_47">#771715</color>
+	<color name="youtube_red_value_67">#AA211E</color>
+	<color name="youtube_red_value_87">#DF2D28</color>
+	
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" >
+
+    <PreferenceCategory android:key="first_category"
+        android:title="@string/preference_category_general_settings" 
+        android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" >
+    
+	    <SwitchPreference android:key="javascript_enabled"
+	        android:title="@string/javascript_preference"
+	        android:summary="@string/javascript_preference_summary"
+	        android:defaultValue="true" 
+	        android:layout_width="match_parent" 
+    	    android:layout_height="wrap_content" >
+	    </SwitchPreference>
+	    
+	    <SwitchPreference android:key="use_desktop_site"
+        	android:title="@string/use_desktop_site_preference"
+        	android:summary="@string/use_desktop_site_preference_summary"
+        	android:defaultValue="false" 
+	        android:layout_width="match_parent" 
+    	    android:layout_height="wrap_content" >
+        </SwitchPreference>
+
+	    <SwitchPreference android:key="disable_push_messages"
+        	android:title="@string/disable_push_messages_preference"
+        	android:summary="@string/disable_push_messages_preference_summary"
+        	android:defaultValue="false" 
+	        android:layout_width="match_parent" 
+    	    android:layout_height="wrap_content" >
+        </SwitchPreference>
+    	
+    </PreferenceCategory>
+    
+</PreferenceScreen>

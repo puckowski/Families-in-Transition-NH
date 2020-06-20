@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScrollView"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    	
+	<LinearLayout android:id="@+id/rootLayout"
+    	android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    	
+	    <ViewFlipper android:id="@+id/location_view_flipper"
+        	android:layout_width="match_parent"
+        	android:layout_height="300dip"
+        	android:gravity="center"
+        	android:background="@drawable/view_flipper_selector" >
+    	</ViewFlipper>
+    	
+	    <Button android:id="@+id/outfitters_info_button"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textStyle="bold"
+    		android:text="@string/outfitters_expand_info_label"
+    		android:textColor="@color/white"
+    		android:background="@drawable/fit_green_selector"
+    		android:textAppearance="?android:attr/textAppearanceLarge"
+    		android:layout_gravity="center" >
+    	</Button>
+    	
+	    <TextView android:id="@+id/outfitters_thrift_store_description"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:textAppearance="?android:attr/textAppearance"
+    		android:paddingLeft="16dip"
+    		android:paddingRight="16dip"
+    		android:paddingTop="16dip"
+    		android:paddingBottom="16dip"
+    		android:layout_gravity="center"
+    		android:textColor="@color/action_bar_title_gray" >
+    	</TextView>
+	    
+	    <Button android:id="@+id/outfitters_thrift_store_launch"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/google_maps_selector"
+    		android:textColor="@color/white"
+    		android:text="@string/outfitters_thrift_store_button_text" >
+	    </Button>
+	    
+	    <Button android:id="@+id/outfitters_thrift_store_boutique_launch"
+	        android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:background="@drawable/google_maps_selector"
+    		android:textColor="@color/white"
+    		android:text="@string/outfitters_thrift_store_boutique_button_text" >
+	    </Button>
+    	
+	</LinearLayout>
+	
+</ScrollView>

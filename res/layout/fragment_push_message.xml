@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+	
+      	<ListView android:id="@+id/listview"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent" 
+    		android:dividerHeight="1dip" 
+    		android:divider="@color/push_message_divider" >  
+      	</ListView>
+        
+      	<ProgressBar android:id="@+id/loading_spinner"
+        	style="?android:progressBarStyleLarge"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center" >
+    	</ProgressBar>
+    
+    </FrameLayout>
+
+    <Button android:id="@+id/clear_messages_butoon"
+   		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textStyle="bold"
+    	android:text="@string/clear_all_push_messages"
+    	android:textColor="@color/white"
+    	android:background="@drawable/fit_green_selector"
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	android:layout_gravity="center">
+    </Button>
+
+</LinearLayout> 

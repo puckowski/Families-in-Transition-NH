@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <string name="app_name">Families in Transition</string>
+    
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <string name="action_bar_settings">Settings</string>
+    <string name="action_bar_open_menu">Menu</string>
+    <string name="preference_category_general_settings">General Settings</string>
+    
+    <string name="javascript_preference">Enable JavaScript</string>
+    <string name="javascript_preference_summary">Enable JavaScript features while browsing Families in Transition\&#39;s website.</string>
+    <string name="use_desktop_site_preference">Use desktop site</string>
+    <string name="use_desktop_site_preference_summary">Browse the desktop version of Families in Transition\&#39;s website.</string>
+    <string name="disable_push_messages_preference">Disable push messages</string>
+    <string name="disable_push_messages_preference_summary">Do not show new messages in the notification area.</string>
+    
+    <string name="drawer_list_bullet_character">\u2022</string>
+    
+    <string name="youtube_username">FITNH1</string>
+    <string name="youtube_logo_content_description">YouTube logo</string>
+    <string name="youtube_launch_button_text">Launch in YouTube app</string>
+    <string name="youtube_web_launch_button_text">Launch in web browser</string>
+    <string name="launching_youtube_message">Loading Families in Transition in the YouTube app</string>
+    <string name="launching_youtube_in_browser_message">Loading Families in Transition in a web browser</string>
+    <string name="youtube_about_video_id">-nu9KGcNzh4</string>
+    <string name="youtube_about_video_content_description">A YouTube video featuring Families in Transition that describes its mission.</string>
+    <string name="youtube_player_error">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="about_fit_video_label">Watch a video about Families in Transition below</string>
+    
+    <string name="twitter_username">FITNH</string>
+    <string name="twitter_logo_content_description">Twitter logo</string>
+    <string name="twitter_launch_button_text">Launch in Twitter app</string>
+    <string name="twitter_web_launch_button_text">Launch in web browser</string>
+    <string name="launching_twitter_message">Loading Families in Transition in the Twitter app</string>
+    <string name="launching_twitter_in_browser_message">Loading Families in Transition in a web browser</string>
+    
+    <string name="facebook_username">fitnh</string>
+    <string name="facebook_profile_id">115894808453749</string>
+    <string name="facebook_logo_content_description">Facebook logo</string>
+    <string name="facebook_launch_button_text">Launch in Facebook app</string>
+    <string name="facebook_web_launch_button_text">Launch in web browser</string>
+    <string name="launching_facebook_message">Loading Families in Transition in the Facebook app</string>
+    <string name="launching_facebook_in_browser_message">Loading Families in Transition in a web browser</string>
+    
+    <string name="outfitters_thrift_store_button_text">OutFITters Thrift Store</string>
+    <string name="outfitters_thrift_store_boutique_button_text">OutFITters Boutique</string>
+    <string name="outfitters_thrift_store_address">394 Second Street Manchester, NH 03102</string>
+    <string name="outiftters_thrift_store_boutique_address">20 South Main Street Concord, NH 03301</string>
+    <string name="launching_outfitters_thrift_message">Loading OutFITters Thrift Store in the Google Maps app</string>
+    <string name="launching_outfitters_boutique_message">Loading OutFITters Boutique in the Google Maps app</string>
+    <string name="outfitters_expand_info_label">Expand OutFITters Info</string>
+    <string name="outfitters_collapse_info_label">Collapse OutFITters Info</string>
+    <string name="outfitters_thrift_store_description">The thrift stores are a revenue stream for Families in Transition, 
+        with 100% of store proceeds benefitting the agency. Together, the stores generate over $100,000 in sales revenue 
+        annually to support FIT housing and services for the homeless in Manchester and Concord. Families in Transition owns 
+        and operates two nonprofit thrift stores in Manchester and Concord, NH. OutFITters Thrift Store in Manchester sells 
+        new and gently used furniture, housewares, books, and clothing for the whole family. OutFITters Thrift Store Boutique 
+        in Concord specializes in new and gently used upscale clothing and accessories for the whole family, now along with 
+        furniture and housewares.\n\nAdditionally, participants at Families in Transition are given vouchers to the store upon 
+        entering FIT housing so that they can purchase basic living necessities.
+    </string>
+    
+    <string name="gcm_not_registered_label">Push notifications form</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="gcm_register_name_label">Enter full name</string>
+    <string name="gcm_register_email_label">Enter Gmail address</string>
+    <string name="gcm_registration_url">http://fitnh.com/register</string>
+    <string name="gcm_request_token_pair_name">token</string>
+    <string name="gcm_request_old_token_pair_name">prevToken</string>
+    <string name="gcm_request_os_pair_name">os</string>
+    <string name="gcm_operating_system_type">Android</string>
+    <string name="register_for_push_notifications">Register for push notifications</string>
+    <string name="unregister_for_push_notifications">Unregister for push notifications</string>
+    
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on server.</string>
+    <string name="server_registered">From server: successfully added device!</string>
+    <string name="server_unregistered">From server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on server after %1$d attempts. Please try again later.</string>
+    <string name="server_unregister_error">Could not unregister device on server (%1$s).</string>
+    
+    <string name="clear_all_push_messages">Clear all messages</string>
+    <string name="push_messaging_expand_info">Expand push messaging info</string>
+    <string name="push_messaging_collapse_info">Collapse push messaging info</string>
+    <string name="push_messaging_description">Google Cloud Messaging for Android (GCM) is a service that allows 
+        you to send data from your server to your users\' Android-powered device, and also to receive messages from devices
+        on the same connection. The GCM service handles all aspects of queueing of messages and delivery to the target 
+        Android application running on the target device. GCM is completely free no matter how big your messaging needs are, 
+        and there are no quotas.
+    </string>
+    <string name="saved_push_messages_file">saved_push_messages.txt</string>
+    
+    <string name="debug_show_gcm_id_button_label">(Debugging) Show GCM ID</string>
+    
+</resources>
